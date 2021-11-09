@@ -41,13 +41,13 @@
     <section id="home">
 
         <img src="imgs/profile.jpeg" width=300 alt="Eun's profile photo" class="home__avatar">
-        <h1 class="home__title">Hello, <br>I'm Dream Coder</h1>
-        <h2 class="home__description">A Software Engineer currently residing in Seoul, Korea.</h2>
+        <h1 class="home__title">Hello, <br>I'm Eun Lee</h1>
+        <h2 class="home__description">A Software/Data Engineer currently residing in Seoul, Korea.</h2>
         <button class="home__contact">CONTACT ME</button>
     </section>
 
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section section__container">
         <h1>About me</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam perferendis facilis earum repellendus sunt maiores, harum eos voluptatibus ipsa perspiciatis optio sit error possimus nobis deserunt quod veritatis ab natus.
@@ -59,8 +59,7 @@
                 </div>
                 <h2 class="major__title">Front-end</h2>
                 <div class="major__description">
-                    HTML, CSS, JavaScript, TypeScript,
-                    <br>React, Vue, Web APIs
+                    HTML, CSS, JavaScript
                 </div>
             </div>
             <div class="major">
@@ -69,8 +68,7 @@
                 </div>
                 <h2 class="major__title">Mobile</h2>
                 <div class="major__description">
-                    Android, iOS, React Native, Flutter,
-                    <br>Java, Swift, Kotlin
+                    UI/UX, Project Managing
                 </div>
             </div>
             <div class="major">
@@ -79,19 +77,11 @@
                 </div>
                 <h2 class="major__title">Back-end</h2>
                 <div class="major__description">
-                    Django, JavaScript, NodeJS
-                    <br>Rest APIs, GraphGL
+                    Django, JavaScript
                 </div>
             </div>
         </div>
         <div class="about__jobs">
-            <div class="job">
-                <img src="imgs/hongik.jpg" alt="Hongik Univ." class="job__logo" width="80px">
-                <div class="job__description">
-                    <p class="job__name">Hongik Univ.</p>
-                    <p class="job__period">2016 Mar - Until now</p>
-                </div>
-            </div>
             <div class="job">
                 <img src="imgs/hongik.jpg" alt="Hongik Univ." class="job__logo" width="80px">
                 <div class="job__description">
@@ -185,7 +175,7 @@
                             <li><span>Visual Studio</span></li>
                             <li><span>Spyder</span></li>
                             <li><span>Colab</span></li>
-                            <li><span>Android Studio Code</span></li>
+                            <li><span>Android Studio</span></li>
                             <li><span>Figma</span></li>
                             <li><span>Adobe Illustrator</span></li>
                         </ul>
@@ -194,7 +184,8 @@
                         <h3 class="skillset__title">Etc</h3>
                         <ul class="etc__list">
                             <li><span>Git</span></li>
-                            <li><span>Data visualization</span></li>
+                            <li><span>Data Visualization</span></li>
+                            <li><span>Data Analysis</span></li>
                             <li><span>UI/UX</span></li>
                         </ul>
                     </div>
@@ -207,70 +198,34 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__btn">All<soan class="category__count">8</soan></button>
-            <button class="category__btn">Front-end<soan class="category__count">3</soan></button>
-            <button class="category__btn">Back-end<soan class="category__count">3</soan></button>
-            <button class="category__btn">Mobile<soan class="category__count">2</soan></button>
+            <button class="category__btn active">All<soan class="category__count">3</soan></button>
+            <button class="category__btn">Front-end<soan class="category__count">1</soan></button>
+            <button class="category__btn">Mobile<soan class="category__count">1</soan></button>
+            <button class="category__btn">Data-Analysis<soan class="category__count">1</soan></button>
         </div>
 
         <div class="work__projects">
             <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project1.png" alt="Youtube">
+                <img class="project__img" src="imgs/projects/project5.png" alt="Welllog">
                 <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
+                    <h3>Welllog - Achievement diary<br>to record good habits</h3>
+                    <span>Mobile Application - Android, iOS</span>
                 </div>
             </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project2.png" alt="Youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project3.png" alt="Youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project4.png" alt="Youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project5.png" alt="Youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
+            <a href="https://github.com/oduodg/BankingApp-SentiAnalyzer" class="project" target="blank">
                 <img class="project__img" src="imgs/projects/project6.png" alt="Youtube">
                 <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
+                    <h3>BankingAppReview<br>-SentiAnalyzer </h3>
+                    <span>Python - Natural Language Processing</span>
                 </div>
             </a>
             <a href="https://github.com/oduodg" class="project" target="blank">
                 <img class="project__img" src="imgs/projects/project7.png" alt="Youtube">
                 <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
+                    <h3>Syrup Wallet<br>UI/UX Improvement</h3>
+                    <span>Mobile Wallet UI/UX, Analysis</span>
                 </div>
-            </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
-                <img class="project__img" src="imgs/projects/project8.png" alt="Youtube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Clone coding with HTML and CSS</span>
-                </div>
-            </a>
-            
+            </a>    
         </div>
     </section>
 
@@ -283,14 +238,7 @@
                 <img src="imgs/people1.jpg" alt="People" class="testimonial__avatar">
                 <div class="testimonial__speech-bubble">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quibusdam impedit mollitia distinctio quas accusantium ad assumenda eaque cumque optio, corporis perferendis explicabo consectetur vero expedita incidunt, autem possimus rem.</p>
-                    <p class="name"><a href="">Ellie</a> / Samsung</p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="imgs/people1.jpg" alt="People" class="testimonial__avatar">
-                <div class="testimonial__speech-bubble">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quibusdam impedit mollitia distinctio quas accusantium ad assumenda eaque cumque optio, corporis perferendis explicabo consectetur vero expedita incidunt, autem possimus rem.</p>
-                    <p class="name"><a href="">Ellie</a> / Samsung</p>
+                    <p class="name"><a href="">Ellie</a> / Hongik Univ.</p>
                 </div>
             </div>
         </div>
