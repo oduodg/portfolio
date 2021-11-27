@@ -206,28 +206,28 @@
             <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__btn active">All<soan class="category__count">3</soan></button>
-            <button class="category__btn">Front-end<soan class="category__count">1</soan></button>
-            <button class="category__btn">Mobile<soan class="category__count">1</soan></button>
-            <button class="category__btn">Data-Analysis<soan class="category__count">1</soan></button>
+            <button class="category__btn active" data-filter="*">All<soan class="category__count">3</soan></button>
+            <button class="category__btn" data-filter="front-end">Front-end<soan class="category__count">1</soan></button>
+            <button class="category__btn" data-filter="mobile">Mobile<soan class="category__count">1</soan></button>
+            <button class="category__btn" data-filter="data-analysis">Data-Analysis<soan class="category__count">1</soan></button>
         </div>
 
         <div class="work__projects">
-            <a href="https://github.com/oduodg" class="project" target="blank">
+            <a href="https://github.com/oduodg" class="project" target="blank" data-type="mobile">
                 <img class="project__img" src="imgs/projects/project5.png" alt="Welllog">
                 <div class="project__description">
                     <h3>Welllog - Achievement diary<br>to record good habits</h3>
                     <span>Mobile Application - Android, iOS</span>
                 </div>
             </a>
-            <a href="https://github.com/oduodg/BankingApp-SentiAnalyzer" class="project" target="blank">
+            <a href="https://github.com/oduodg/BankingApp-SentiAnalyzer" class="project" target="blank" data-type="data-analysis">
                 <img class="project__img" src="imgs/projects/project6.png" alt="Youtube">
                 <div class="project__description">
                     <h3>BankingAppReview<br>-SentiAnalyzer </h3>
                     <span>Python - Natural Language Processing</span>
                 </div>
             </a>
-            <a href="https://github.com/oduodg" class="project" target="blank">
+            <a href="https://github.com/oduodg" class="project" target="blank" data-type="front-end">
                 <img class="project__img" src="imgs/projects/project7.png" alt="Youtube">
                 <div class="project__description">
                     <h3>Syrup Wallet<br>UI/UX Improvement</h3>
