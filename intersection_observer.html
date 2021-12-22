@@ -44,6 +44,20 @@
     <div class="box">19</div>
     <div class="box">20</div>
 
-    <script></script>
+    <script>
+      const boxes = document.querySelectorAll('.box');
+
+      const callback = (entries, observer) => {
+        entries.forEach(entry => {
+          if(entry.isIntersecting){
+            entry.target.classList.add('active');
+        } else {
+          entry.target.classList.remove('active');
+        }
+      });
+    };
+      const observer = new IntersectionObserver(callback);
+      boxes.forEach(box => observer.observe(box));
+    </script>
   </body>
 </html>
